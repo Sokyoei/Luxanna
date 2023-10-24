@@ -1,3 +1,6 @@
+########################################################################################################################
+# Lua
+########################################################################################################################
 # Compiled Lua sources
 luac.out
 
@@ -39,3 +42,17 @@ luac.out
 *.x86_64
 *.hex
 
+########################################################################################################################
+# VS Code
+########################################################################################################################
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+*.code-workspace
+
+# VSCode Extension `Code Runner` temp file
+tempCodeRunnerFile.*
